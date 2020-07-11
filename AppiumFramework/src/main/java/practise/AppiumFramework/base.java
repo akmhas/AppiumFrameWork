@@ -75,7 +75,7 @@ FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\m
      DesiredCapabilities capabilities = new DesiredCapabilities();
      String device=(String) prop.get("device");
     //String device= System.getProperty("deviceName");
-  if(device.contains("emulator"))
+  if(device.contains("emulator"))//ifan
   {
   startEmulator();
   }
