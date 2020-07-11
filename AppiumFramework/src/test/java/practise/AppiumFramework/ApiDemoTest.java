@@ -26,11 +26,7 @@ public void apiDemoTest(String input) throws IOException, InterruptedException
      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
      
   //xpath id className, androidUIautomator
-     /*    xpath Syntax
-      *    //tagName[@attribute='value']
-    
-      * 
-      */
+  
      HomePage h=new HomePage(driver);
      //Constructor of class will be invoked when you create object for the class
      
